@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "amazon-bedrock-workshop"
+version = "0.1.0"
+description = "\"Bedrock workshop on https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US\""
+authors = ["patricknormile <pnormile@parsyl.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+googleapis-common-protos = {path = ".venv/bin/python"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
